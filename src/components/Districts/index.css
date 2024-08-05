@@ -1,0 +1,13 @@
+.top-districts-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 15px;
+  list-style-type: none;
+  color: #94a3b8;
+  margin-left: 15px;
+}
+
+.count-value {
+  margin-right: 5px;
+}

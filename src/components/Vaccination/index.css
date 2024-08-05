@@ -1,0 +1,227 @@
+.vaccination-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90vh;
+  padding: 10px;
+  color: #ffffff;
+  overflow: auto;
+  scrollbar-width: none;
+  background-size: cover;
+}
+
+.vaccination-counts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-size: cover;
+}
+
+.main-heading {
+  font-size: 25px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.state-option {
+  width: 265px;
+  background-size: cover;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.total-vaccination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2f2f43;
+  width: 500px;
+  background-size: cover;
+  font-size: 14px;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.headings {
+  color: #cbd5e1;
+}
+
+.row-alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column-alignment {
+  display: flex;
+  flex-direction: column;
+}
+
+.margin {
+  margin-left: 6px;
+}
+
+.chart-bg-container {
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.ages-color-1 {
+  background-color: #0088fe;
+  color: #0088fe;
+  font-size: 2px;
+}
+.ages-color-2 {
+  background-color: #00c49f;
+  color: #00c49f;
+  font-size: 2px;
+}
+.ages-color-3 {
+  background-color: #ffbb28;
+  color: #ffbb28;
+  font-size: 2px;
+}
+.ages-color-4 {
+  background-color: #ff8042;
+  color: #ff8042;
+  font-size: 2px;
+}
+
+.pie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f2f43;
+  width: 300px;
+  background-size: cover;
+  font-size: 14px;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.pie-chart-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.pie-chart-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  padding: 0px;
+}
+
+.label-colors-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 6px;
+  font-size: 10px;
+}
+.pie-charts-alignment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pie-2 {
+  margin-left: 30px;
+}
+
+.failureView-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e30;
+  height: 90vh;
+  box-shadow: 0px 4px 16px 0px #00000029;
+  background-size: cover;
+  overflow: auto;
+  color: #ffffff;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.loading-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e30;
+  height: 90vh;
+  box-shadow: 0px 4px 16px 0px #00000029;
+  background-size: cover;
+  overflow: auto;
+  color: #ffffff;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .vaccination-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    height: 90vh;
+    width: 100vw;
+    padding: 10px;
+    color: #ffffff;
+    overflow: auto;
+    scrollbar-width: none;
+    background-size: cover;
+  }
+  .pie-charts-alignment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pie-container {
+    margin: 10px;
+  }
+
+  .total-vaccination-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #2f2f43;
+    width: 160px;
+    margin: 5px;
+    background-size: cover;
+    font-size: 10px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 160px;
+  }
+
+  .chart-bg-container {
+    margin-left: 12px;
+  }
+  .area-chart {
+    width: 200px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}

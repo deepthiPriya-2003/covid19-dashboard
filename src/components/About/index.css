@@ -1,0 +1,41 @@
+.about-page-bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  overflow: scroll;
+  scrollbar-width: none;
+  justify-content: space-between;
+  background-size: cover;
+  background-color: #161625;
+  padding: 10px;
+  padding-left: 30px;
+  width: 100vw;
+  color: #ffffff;
+}
+
+.faqs-unordered-list {
+  list-style-type: none;
+}
+
+.faq-list-items {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.question {
+  color: #94a3b8;
+  margin-bottom: 5px;
+}
+
+.answer {
+  color: #007bff;
+}
+
+.heading {
+  margin-left: 40px;
+}
+
+.sub-heading {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}

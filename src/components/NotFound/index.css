@@ -1,0 +1,22 @@
+.notFound-page-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-color: #161625;
+  padding: 10px;
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+  color: #ffffff;
+}
+
+.home-page-button {
+  color: #ffffff;
+  background-color: #2563eb;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}

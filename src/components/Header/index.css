@@ -1,0 +1,80 @@
+.header-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #1e1e30;
+  color: #ffffff;
+}
+.logo-link {
+  text-decoration: none;
+}
+
+.covid19-text {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.india-text {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: blue;
+}
+.mobile-nav-items {
+  display: flex;
+  flex-direction: row;
+  background: #161625;
+  color: #94a3b8;
+  list-style-type: none;
+}
+
+.mobile-nav-items-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #161625;
+  color: #94a3b8;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-links-desktop-container {
+    display: none;
+  }
+  .nav-links-mobile-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+}
+
+.nav-links {
+  color: #ffffff;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-links-mobile-container {
+    display: none;
+  }
+
+  .nav-links-desktop-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+}
