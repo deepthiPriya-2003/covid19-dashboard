@@ -13,7 +13,7 @@ const SearchVarients = props => {
   return (
     <li className="searchResults-list-item" onClick={onClickStateBtn}>
       <p>{name}</p>
-      <button className="arrow-btn" onClick={onClickStateBtn}>
+      <button type="button" className="arrow-btn" onClick={onClickStateBtn}>
         <p>{stateCode}</p>
         <BiChevronRightSquare />
       </button>
